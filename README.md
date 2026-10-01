@@ -13,7 +13,7 @@ I enjoy working with data, building machine learning models, developing applicat
 
 ### Programming
 - C++
-- Python
+- Python 
 - JavaScript
 - HTML
 - CSS
