@@ -1,5 +1,5 @@
 import Python from "../assets/skill-icons/python.png";
-import Cpp from "../assets/skill-icons/C++.png";
+import Cpp from "../assets/skill-icons/c++.png";
 import JavaScript from "../assets/skill-icons/JavaScript.png";
 import HTML from "../assets/skill-icons/HTML.png";
 import CSS from "../assets/skill-icons/CSS.png";
