@@ -100,8 +100,7 @@ function Projects() {
                         href={project.liveDemo}
                         target="_blank"
                         rel="noreferrer"
-                        className="project-link project-demo-link"
-                      >
+                        className="project-link project-demo-link">
                         <ExternalLink size={15} />
                         <span>Website</span>
                       </a>

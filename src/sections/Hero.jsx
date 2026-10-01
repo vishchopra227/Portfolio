@@ -187,8 +187,7 @@ function Hero() {
       <button
         className="hero-scroll-indicator"
         onClick={handleScrollToAbout}
-        aria-label="Scroll to About section"
-      >
+        aria-label="Scroll to About section">
         <span>Scroll to explore</span>
         <ArrowDown size={16} />
       </button>
