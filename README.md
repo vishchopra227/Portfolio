@@ -7,3 +7,4 @@ Highlights my work in Data Analytics, Machine Learning, AI, and Web Development.
 Designed with a clean and professional interface to showcase my work and connect with others.
 
 🔗 **Live Portfolio:** https://vishalchopra.vercel.app/
+ 
