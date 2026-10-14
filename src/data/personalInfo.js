@@ -15,7 +15,7 @@ const personalInfo = {
     "Currently deepening my knowledge of machine learning, data structures, algorithms and full stack development while continuously improving my problem-solving skills.",
 
   problemsIEnjoy:
-    "I enjoy solving programming, data structures, algorithmic and application-development problems — especially problems that require logical thinking and efficient solutions.",
+    "I enjoy solving programming, data structures, algorithmic and application-development problems especially problems that require logical thinking and efficient solutions.",
 
   careerGoals:
     "My goal is to grow as a strong software engineer, contribute to impactful products and build reliable systems while continuously improving my technical and problem-solving skills.",
