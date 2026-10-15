@@ -102,7 +102,7 @@ function Experience() {
               <p>
                 I'm continuously working on projects, strengthening
                 my technical skills and looking for opportunities to
-                apply what I learn in real-world environments.
+                apply what I learn in real world environments.
               </p>
             </div>
           </div>
