@@ -1,4 +1,4 @@
-import nitRourkelaLogo from "../assets/nit-rourkela.png";
+import nitRourkelaLogo from "../assets/nit rourkela.png";
 import jnvLogo from "../assets/jnv.png";
 
 const education = [
@@ -29,7 +29,7 @@ const education = [
     image: jnvLogo,
 
     description:
-      "Completed Class XII with Physics, Chemistry and Mathematics (PCM), developing a strong foundation in analytical thinking and problem-solving.",
+      "Completed Class XII with Physics, Chemistry and Mathematics (PCM), developing a strong foundation in analytical thinking and problem solving.",
 
     duration: "",
 

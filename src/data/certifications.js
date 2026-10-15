@@ -16,7 +16,7 @@ const certifications = [
     issuer: "CodeChef",
     date: "",
     description:
-      "Solved 150+ coding problems on CodeChef and actively improving my problem-solving skills.",
+      "Solved 150+ coding problems on CodeChef and actively improving my problem solving skills.",
     profileUrl:
       "https://www.codechef.com/users/vkchopra123",
   },
