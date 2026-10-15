@@ -125,7 +125,7 @@ function Projects() {
 
               <p>
                 I'm building and improving projects that demonstrate
-                my development skills, problem-solving ability and
+                my development skills, problem solving ability and
                 understanding of modern technologies.
               </p>
             </div>
