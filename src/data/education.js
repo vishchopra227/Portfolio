@@ -1,4 +1,4 @@
-import nitRourkelaLogo from "../assets/nit rourkela.png";
+import nitRourkelaLogo from "../assets/nit-rourkela.png";
 import jnvLogo from "../assets/jnv.png";
 
 const education = [
