@@ -45,7 +45,7 @@ function Skills() {
 
         <div className="skills-bottom">
           <p>
-            Always curious, learning new tools, and improving through hands-on practice.
+            I keep learning by exploring new tools and applying them in hands-on projects.
           </p>
         </div>
 
