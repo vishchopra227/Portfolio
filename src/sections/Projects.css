@@ -36,7 +36,7 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 
   gap: 20px;
 }
@@ -45,6 +45,10 @@
 
 .project-card {
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   min-width: 0;
 
@@ -83,10 +87,6 @@
 }
 
 /* Featured Card */
-
-.project-card-featured {
-  grid-column: span 2;
-}
 
 .project-card-featured .project-content {
   padding: 34px;
@@ -196,6 +196,10 @@
 /* Project Content */
 
 .project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
   padding: 24px 25px 26px;
 }
 
@@ -299,7 +303,8 @@
   flex-wrap: wrap;
   gap: 8px;
 
-  margin-top: 22px;
+  margin-top: auto;
+  padding-top: 22px;
 }
 
 .project-link {
