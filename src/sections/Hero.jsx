@@ -70,7 +70,7 @@ function Hero() {
           <div className="hero-actions">
             <button
               className="primary-button"
-              onClick={handleScrollToProjects}
+              onClick={() => scrollTo("projects")}
             >
               <span>View My Work</span>
               <ArrowRight size={17} />
@@ -186,7 +186,7 @@ function Hero() {
 
       <button
         className="hero-scroll-indicator"
-        onClick={handleScrollToAbout}
+        onClick={() => scrollTo("about")}
         aria-label="Scroll to About section">
         <span>Scroll to explore</span>
         <ArrowDown size={16} />

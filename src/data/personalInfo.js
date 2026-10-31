@@ -25,7 +25,7 @@ const personalInfo = {
 
   location: "India",
 
-  email: "",
+  email: "vkchopra360@email.com",
 
   resume: "",
 
@@ -33,6 +33,10 @@ const personalInfo = {
     github: "https://github.com/vishchopra227",
 
     linkedin: "https://www.linkedin.com/in/vischopra/",
+
+    twitter: "https://x.com/vkchopra360",
+
+    instagram: "https://www.instagram.com/vkchopra360/",
 
     codechef: "https://www.codechef.com/users/vkchopra123",
 

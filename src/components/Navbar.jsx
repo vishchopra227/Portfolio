@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import personalInfo from "../data/personalInfo";
+import scrollTo from "../utils/scrollTo";
 import "./Navbar.css";
 
 function Navbar() {

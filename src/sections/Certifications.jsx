@@ -25,88 +25,80 @@ function Certifications() {
 
         {certifications.length > 0 ? (
           <div className="certifications-list">
-            {certifications.map((certificate, index) => (
-              <article
-                className={`certification-card ${
-                  certificate.type === "achievement"
-                    ? "achievement-card"
-                    : ""
-                }`}
-                key={`${certificate.title}-${index}`}
-              >
-                <div className="certification-icon">
-                  <Award size={25} />
-                </div>
-
-                <div className="certification-content">
-                  <div className="certification-top">
-                    <div>
-                      <span className="certification-label">
-                        {certificate.type === "achievement"
-                          ? "ACHIEVEMENT"
-                          : `CERTIFICATION ${String(index + 1).padStart(
-                              2,
-                              "0"
-                            )}`}
-                      </span>
-
-                      <h3>{certificate.title}</h3>
-
-                      <p className="certification-issuer">
-                        {certificate.type === "achievement"
-                          ? "Coding & Problem Solving"
-                          : "Issued by "}
-                        {certificate.type !== "achievement" && (
-                          <strong>{certificate.issuer}</strong>
-                        )}
-                      </p>
-                    </div>
-
-                    {certificate.type !== "achievement" && (
-                      <BadgeCheck
-                        className="certification-verified"
-                        size={21}
-                      />
-                    )}
+            {certifications.map((certificate, index) => {
+              const isAchievement = certificate.type === "achievement";
+              return (
+                <article
+                  className={`certification-card ${isAchievement ? "achievement-card" : ""}`}
+                  key={`${certificate.title}-${index}`}
+                >
+                  <div className="certification-icon">
+                    <Award size={25} />
                   </div>
 
-                  <p className="certification-description">
-                    {certificate.description}
-                  </p>
+                  <div className="certification-content">
+                    <div className="certification-top">
+                      <div>
+                        <span className="certification-label">
+                          {isAchievement
+                            ? "ACHIEVEMENT"
+                            : `CERTIFICATION ${String(index + 1).padStart(2, "0")}`}
+                        </span>
 
-                  {certificate.date && (
-                    <div className="certification-date">
-                      <CalendarDays size={13} />
-                      <span>{certificate.date}</span>
+                        <h3>{certificate.title}</h3>
+
+                        <p className="certification-issuer">
+                          {isAchievement ? "Coding & Problem Solving" : "Issued by "}
+                          {!isAchievement && <strong>{certificate.issuer}</strong>}
+                        </p>
+                      </div>
+
+                      {!isAchievement && (
+                        <BadgeCheck
+                          className="certification-verified"
+                          size={21}
+                        />
+                      )}
                     </div>
-                  )}
 
-                  {certificate.certificateUrl && (
-                    <a
-                      href={certificate.certificateUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="certificate-button"
-                    >
-                      <span>View Certificate</span>
-                      <ExternalLink size={15} />
-                    </a>
-                  )}
+                    <p className="certification-description">
+                      {certificate.description}
+                    </p>
 
-                  {certificate.profileUrl && (
-                    <a
-                      href={certificate.profileUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="certificate-button achievement-button"
-                    >
-                      <span>View Profile</span>
-                      <ExternalLink size={15} />
-                    </a>
-                  )}
-                </div>
-              </article>
-            ))}
+                    {certificate.date && (
+                      <div className="certification-date">
+                        <CalendarDays size={13} />
+                        <span>{certificate.date}</span>
+                      </div>
+                    )}
+
+                    {certificate.certificateUrl && (
+                      <a
+                        href={certificate.certificateUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="certificate-button"
+                      >
+                        <span>View Certificate</span>
+                        <ExternalLink size={15} />
+                      </a>
+                    )}
+
+                    {certificate.profileUrl && (
+                      <a
+                        href={certificate.profileUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="certificate-button achievement-button"
+                      >
+                        <span>View Profile</span>
+                        <ExternalLink size={15} />
+                      </a>
+                    )}
+                  </div>
+                </article>
+              );
+            })}
           </div>
         ) : (
           <div className="certifications-empty">

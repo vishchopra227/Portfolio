@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 
 import personalInfo from "../data/personalInfo";
+import scrollTo from "../utils/scrollTo";
 import SectionLabel from "../components/SectionLabel";
 import profileImage from "../assets/profile.jpg";
 
