@@ -22,6 +22,33 @@ const projects = [
 
     featured: true,
   },
+  {
+    title: "Financial Document Intelligence",
+
+    description:
+      "A document analysis platform that enables users to upload financial documents, extract relevant information, and interact with document data through intelligent retrieval and question answering.",
+
+    details:
+      "A full-stack RAG-based application that combines document processing, vector-based retrieval, and LLM-powered responses to simplify financial document analysis. Includes document management, conversational querying, document comparison, metrics, and data export capabilities.",
+
+    technologies: [
+      "RAG",
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "Groq",
+      "Hugging Face",
+      "SQLite",
+    ],
+
+    github:
+      "https://github.com/vishchopra227/financial-document-intelligence",
+
+    liveDemo:
+      "https://financial-document-intelligence-1-ihzp.onrender.com/",
+
+    featured: true,
+  },
 ];
 
 export default projects;
