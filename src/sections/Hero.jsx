@@ -77,7 +77,7 @@ function Hero() {
             </button>
 
             <a
-              href="https://drive.google.com/file/d/18lSxbgE5yomVFHfW20dBNiI8WLNvG0mR/view?usp=sharing"
+              href="https://drive.google.com/uc?export=download&id=18lSxbgE5yomVFHfW20dBNiI8WLNvG0mR"
               target="_blank"
               rel="noreferrer"
               className="secondary-button"
