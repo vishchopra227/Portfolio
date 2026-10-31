@@ -179,6 +179,16 @@
   letter-spacing: -0.5px;
 }
 
+.experience-project {
+  margin: 6px 0 0;
+
+  color: #94a3b8;
+
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
 .experience-number {
   color: #273244;
 
@@ -290,6 +300,56 @@
   font-weight: 600;
 
   letter-spacing: 0.3px;
+}
+
+/* Project Links */
+
+.experience-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-top: 20px;
+}
+
+.experience-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  min-height: 35px;
+
+  padding: 0 14px;
+
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  border-radius: 6px;
+
+  background: rgba(37, 99, 235, 0.08);
+
+  color: #93c5fd;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition:
+    color 0.25s ease,
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.experience-link:hover {
+  transform: translateY(-2px);
+
+  color: #ffffff;
+
+  background: rgba(37, 99, 235, 0.16);
+
+  border-color: rgba(59, 130, 246, 0.45);
 }
 
 /* Empty State */
@@ -434,6 +494,10 @@
     font-size: 17px;
   }
 
+  .experience-project {
+    font-size: 12px;
+  }
+
   .experience-number {
     font-size: 19px;
   }
@@ -452,6 +516,16 @@
 
   .experience-responsibilities li {
     font-size: 11px;
+  }
+
+  .experience-links {
+    margin-top: 16px;
+  }
+
+  .experience-link {
+    min-height: 32px;
+    padding: 0 12px;
+    font-size: 10px;
   }
 
   .experience-empty {

@@ -2,6 +2,7 @@ import {
   BriefcaseBusiness,
   CalendarDays,
   MapPin,
+  ExternalLink,
 } from "lucide-react";
 
 import experience from "../data/experience";
@@ -38,6 +39,12 @@ function Experience() {
                       </span>
 
                       <h3>{job.company}</h3>
+
+                      {job.project && (
+                        <p className="experience-project">
+                          {job.project}
+                        </p>
+                      )}
                     </div>
 
                     <span className="experience-number">
@@ -45,21 +52,23 @@ function Experience() {
                     </span>
                   </div>
 
-                  <div className="experience-meta">
-                    {job.duration && (
-                      <span>
-                        <CalendarDays size={13} />
-                        {job.duration}
-                      </span>
-                    )}
+                  {(job.duration || job.location) && (
+                    <div className="experience-meta">
+                      {job.duration && (
+                        <span>
+                          <CalendarDays size={13} />
+                          {job.duration}
+                        </span>
+                      )}
 
-                    {job.location && (
-                      <span>
-                        <MapPin size={13} />
-                        {job.location}
-                      </span>
-                    )}
-                  </div>
+                      {job.location && (
+                        <span>
+                          <MapPin size={13} />
+                          {job.location}
+                        </span>
+                      )}
+                    </div>
+                  )}
 
                   {job.description && (
                     <p className="experience-description">
@@ -80,6 +89,20 @@ function Experience() {
                       {job.technologies.map((technology) => (
                         <span key={technology}>{technology}</span>
                       ))}
+                    </div>
+                  )}
+
+                  {job.link && (
+                    <div className="experience-links">
+                      <a
+                        href={job.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="experience-link"
+                      >
+                        <ExternalLink size={14} />
+                        <span>Live Project</span>
+                      </a>
                     </div>
                   )}
                 </div>
