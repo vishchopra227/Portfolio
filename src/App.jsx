@@ -30,7 +30,7 @@ function App() {
       <footer className="footer">
         <div className="footer-container">
           <p>
-            © {new Date().getFullYear()} Vishal. All rights reserved.
+            © {new Date().getFullYear()} Vishal. All Rights Reserved.
           </p>
         </div>
       </footer>
