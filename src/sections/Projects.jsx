@@ -18,7 +18,7 @@ function Projects() {
         <SectionLabel
           eyebrow="Things I've built"
           title="Featured Projects"
-          description="A selection of projects where I have applied my technical knowledge to build practical software."
+          description="A selection of full-stack and machine learning applications I've built."
         />
 
         {projects.length > 0 ? (
@@ -124,9 +124,7 @@ function Projects() {
               <h3>Projects coming soon.</h3>
 
               <p>
-                I'm building and improving projects that demonstrate
-                my development skills, problem solving ability and
-                understanding of modern technologies.
+                I'm working on new projects and will share them here soon.
               </p>
             </div>
           </div>

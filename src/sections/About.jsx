@@ -17,19 +17,19 @@ function About() {
       icon: Code2,
       title: "Building",
       description:
-        "Creating responsive and practical applications with a focus on clean code and good user experience.",
+        "Building responsive web applications with clean code and a focus on simplicity.",
     },
     {
       icon: BrainCircuit,
       title: "Learning",
       description:
-        "Continuously improving my knowledge of software development, algorithms and machine learning.",
+        "Sharpening my fundamentals in data structures, algorithms, and practical machine learning.",
     },
     {
       icon: Target,
       title: "Focused On",
       description:
-        "Growing as a software engineer and solving meaningful technical problems efficiently.",
+        "Writing clean code, learning through hands-on projects, and preparing for software engineering roles.",
     },
   ];
 
@@ -39,7 +39,7 @@ function About() {
         <SectionLabel
           eyebrow="Who I am"
           title="About Me"
-          description="A little more about my journey, interests and the way I approach software development."
+          description="A quick overview of my background, what I enjoy building, and what I'm currently focused on."
         />
 
         <div className="about-main">
@@ -68,7 +68,7 @@ function About() {
               </span>
 
               <h3>
-                Engineer focused on{" "}
+                Developer focused on{" "}
                 <span>building useful software.</span>
               </h3>
             </div>
@@ -103,7 +103,7 @@ function About() {
               <div className="about-detail">
                 <span className="detail-label">Interests</span>
                 <span className="detail-value">
-                  Development & Problem Solving
+                  Web Dev, ML & Problem Solving
                 </span>
               </div>
             </div>

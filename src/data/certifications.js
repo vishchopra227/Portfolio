@@ -1,22 +1,24 @@
+const codeChefMaxRating = "1,011";
+
 const certifications = [
   {
     type: "certification",
-    title: "Coursera Certificate",
-    issuer: "Coursera",
+    title: "Machine Learning Specialization",
+    issuer: "Coursera (DeepLearning.AI)",
     date: "",
     description:
-  "Completed the Machine Learning Specialization covering supervised learning, advanced learning algorithms, unsupervised learning, recommender systems, and reinforcement learning.",
+  "Completed the 3-course specialization covering supervised learning, neural networks, unsupervised algorithms, recommender systems, and reinforcement learning.",
     certificateUrl:
       "https://drive.google.com/file/d/18nHOuko4xUQvio2qd6viG_kafrKNssF5/view?usp=sharing",
   },
 
   {
     type: "achievement",
-    title: "CodeChef",
+    title: "CodeChef Problem Solving",
     issuer: "CodeChef",
     date: "",
     description:
-      "Solved 150+ coding problems on CodeChef and actively improving my problem solving skills.",
+      `Solved 150+ problems on CodeChef, achieving a maximum rating of ${codeChefMaxRating} while continuously improving my problem-solving skills.`,
     profileUrl:
       "https://www.codechef.com/users/vkchopra123",
   },

@@ -3,10 +3,10 @@ const projects = [
     title: "FinSight AI",
 
     description:
-      "FinSight AI is a machine learning application designed to assess loan risk and help evaluate whether a loan application is suitable for approval.",
+      "A machine learning web app that predicts loan risk based on applicant financial data to help evaluate approval eligibility.",
 
     details:
-      "The application takes relevant loan applicant information as input and uses a trained machine learning classification model to predict loan risk. The model output is presented through an interactive Streamlit interface, making the prediction process simple and easy to understand.",
+      "Trained a classification model on applicant financial metrics and built a Streamlit interface where users can input details and instantly view the predicted risk assessment.",
 
     technologies: [
       "Machine Learning",
@@ -26,10 +26,10 @@ const projects = [
     title: "Financial Document Intelligence",
 
     description:
-      "A document analysis platform that enables users to upload financial documents, extract relevant information, and interact with document data through intelligent retrieval and question answering.",
+      "A document analysis platform where users can upload financial reports, ask questions, and retrieve accurate answers grounded in document context.",
 
     details:
-      "A full-stack RAG-based application that combines document processing, vector-based retrieval, and LLM-powered responses to simplify financial document analysis. Includes document management, conversational querying, document comparison, metrics, and data export capabilities.",
+      "A full-stack RAG application built with FastAPI and React. It processes financial documents into vector embeddings with Hugging Face models and uses Groq for fast LLM inference, supporting document comparison, metrics extraction, and data export.",
 
     technologies: [
       "RAG",

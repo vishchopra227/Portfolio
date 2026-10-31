@@ -20,7 +20,7 @@ function Certifications() {
         <SectionLabel
           eyebrow="Continuous learning"
           title="Certifications & Achievements"
-          description="Courses, certifications and achievements that reflect my technical learning and problem-solving journey."
+          description="Courses and competitive programming milestones that document my technical learning."
         />
 
         {certifications.length > 0 ? (
@@ -122,9 +122,7 @@ function Certifications() {
               <h3>More certifications coming soon.</h3>
 
               <p>
-                Professional courses and certifications will be
-                added here as I continue expanding my technical
-                knowledge.
+                I'm working through new courses and certifications and will post them here as I complete them.
               </p>
             </div>
           </div>

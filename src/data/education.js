@@ -10,9 +10,9 @@ const education = [
     image: nitRourkelaLogo,
 
     description:
-      "Currently pursuing B.Tech in Biomedical Engineering at NIT Rourkela, developing a strong foundation in engineering, programming, data analysis and emerging technologies.",
+      "Pursuing my B.Tech at NIT Rourkela, balancing core engineering coursework with a strong focus on software development, data structures, and machine learning.",
 
-    duration: "2024 – Present",
+    duration: "2024 - Present",
 
     location: "Rourkela, Odisha",
 
@@ -29,7 +29,7 @@ const education = [
     image: jnvLogo,
 
     description:
-      "Completed Class XII with Physics, Chemistry and Mathematics (PCM), developing a strong foundation in analytical thinking and problem solving.",
+      "Completed higher secondary education with a major in Physics, Chemistry, and Mathematics (PCM).",
 
     duration: "",
 
@@ -48,7 +48,7 @@ const education = [
     image: jnvLogo,
 
     description:
-      "Completed secondary education at Jawahar Navodaya Vidyalaya, Niwarsi.",
+      "Completed secondary school education with a solid academic foundation in science and mathematics.",
 
     duration: "",
 

@@ -76,7 +76,7 @@ const skills = [
   },
 
   {
-    category: "Framework",
+    category: "Developer Tools",
     skills: [
       { name: "Jupyter", icon: Jupyter },
       { name: "Git", icon: Git },

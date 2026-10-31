@@ -4,24 +4,24 @@ const personalInfo = {
   role: "Software Developer | Full Stack Developer",
 
   shortDescription:
-    "I build scalable, responsive and user focused web applications using JavaScript, React, Node.js and modern development tools.",
+    "I'm an engineering student and developer focused on building clean, practical web applications and exploring machine learning. I primarily work with React, Node.js, and Python.",
 
-  aboutTitle: "Engineer focused on clean, scalable products",
+  aboutTitle: "Developer focused on building practical, reliable software",
 
   aboutDescription:
-    "I'm a software developer focused on building clean, reliable and maintainable web applications. I enjoy turning real problems into simple, well engineered products from designing the data model to shipping a polished interface.",
+    "I'm an undergraduate student at NIT Rourkela with a strong focus on full-stack development and machine learning. I enjoy taking ideas from concept to completion, whether that involves structuring a backend API, training a model, or building a clean, responsive user interface.",
 
   currentlyLearning:
-    "Currently deepening my knowledge of machine learning, data structures, algorithms and full stack development while continuously improving my problem solving skills.",
+    "Right now, I'm focusing on data structures and algorithms, building full-stack web projects, and experimenting with applied machine learning.",
 
   problemsIEnjoy:
-    "I enjoy solving programming, data structures, algorithmic and application development problems especially problems that require logical thinking and efficient solutions.",
+    "I enjoy competitive programming and hands-on software development, especially problems that require structured thinking and efficient algorithms.",
 
   careerGoals:
-    "My goal is to grow as a strong software engineer, contribute to impactful products and build reliable systems while continuously improving my technical and problem solving skills.",
+    "My goal is to keep growing as a software engineer by working on real-world projects, writing dependable code, and learning from experienced teams.",
 
   interests:
-    "Interested in full stack development, machine learning, competitive programming, developer tools and building practical software products.",
+    "Full-stack web development, machine learning, competitive programming, and developer tools.",
 
   location: "India",
 
@@ -39,7 +39,6 @@ const personalInfo = {
     leetcode: "https://leetcode.com/u/eyStMXOR1b/",
 
     codeforces: "https://codeforces.com/profile/vishal227",
-    
   },
 
   certificates: {

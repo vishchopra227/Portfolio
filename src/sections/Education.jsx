@@ -17,7 +17,7 @@ function Education() {
         <SectionLabel
           eyebrow="Academic background"
           title="Education"
-          description="My academic journey and the foundation behind my technical skills."
+          description="My academic background and where I developed my technical fundamentals."
         />
 
         <div className="education-list">

@@ -11,7 +11,7 @@ function Skills() {
         <SectionLabel
           eyebrow="What I work with"
           title="Skills & Technologies"
-          description="The technologies and tools I use to build, develop and solve problems."
+          description="The languages, frameworks, and developer tools I use across my projects."
         />
 
         <div className="skills-grid">
@@ -45,7 +45,7 @@ function Skills() {
 
         <div className="skills-bottom">
           <p>
-            Always learning, always improving, always building.
+            Always curious, learning new tools, and improving through hands-on practice.
           </p>
         </div>
 

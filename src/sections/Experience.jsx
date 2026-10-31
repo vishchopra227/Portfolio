@@ -17,7 +17,7 @@ function Experience() {
         <SectionLabel
           eyebrow="My journey"
           title="Experience"
-          description="The places, roles and experiences that have shaped my development journey."
+          description="Roles and freelance projects where I've contributed to real-world software."
         />
 
         {experience.length > 0 ? (
@@ -120,12 +120,10 @@ function Experience() {
                 EXPERIENCE
               </span>
 
-              <h3>Building my professional journey.</h3>
+              <h3>Growing my experience.</h3>
 
               <p>
-                I'm continuously working on projects, strengthening
-                my technical skills and looking for opportunities to
-                apply what I learn in real world environments.
+                I'm building projects, practicing core software fundamentals, and actively seeking internship opportunities.
               </p>
             </div>
           </div>

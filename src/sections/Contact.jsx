@@ -39,7 +39,7 @@ function Contact() {
         <SectionLabel
           eyebrow="Get in touch"
           title="Let's Work Together"
-          description="Have a project, opportunity or idea you'd like to discuss? I'd love to hear from you."
+          description="Have an opportunity, project, or question? Feel free to reach out."
         />
 
         <div className="contact-card">
@@ -55,14 +55,12 @@ function Contact() {
               </span>
 
               <h3>
-                Let's build something
-                <span> meaningful.</span>
+                Let's connect and
+                <span> build together.</span>
               </h3>
 
               <p>
-                I'm always interested in discussing new projects,
-                development opportunities and ideas. Feel free to
-                reach out and start a conversation.
+                I'm open to software development internships, freelance projects, and technical collaborations. Feel free to reach out and start a conversation.
               </p>
 
               {/* Contact Details */}
